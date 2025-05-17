@@ -10,7 +10,7 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, 'docs'),
     publicPath: '/dicoding-stories-app/',
-    filename: '[name].bundle.js',
+    filename: 'app.bundle.js',
   },
   module: {
     rules: [
