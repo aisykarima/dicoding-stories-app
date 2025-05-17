@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Register SW dulu, baru render page
   if ('serviceWorker' in navigator) {
     try {
-      // Tambahkan path subfolder repo di depan sw.bundle.js
       await navigator.serviceWorker.register('./dicoding-stories-app/sw.bundle.js');
       console.log('✅ Service Worker ready & registered');
     } catch (err) {
