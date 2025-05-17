@@ -7,6 +7,11 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'production',
+  output: {
+    path: path.resolve(__dirname, 'docs'),  // sesuaikan folder output kamu
+    filename: '[name].bundle.js',
+    publicPath: '/dicoding-stories-app/',   // <-- tambahkan ini supaya asset di-load dengan path yang benar
+  },
   module: {
     rules: [
       {

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   // Register SW dulu, baru render page
   if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('./sw.bundle.js');
+      await navigator.serviceWorker.register('/dicoding-stories-app/sw.bundle.js');
       console.log('✅ Service Worker ready & registered');
     } catch (err) {
       console.error('❌ SW registration failed:', err);
