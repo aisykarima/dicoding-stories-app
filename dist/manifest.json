@@ -1,0 +1,36 @@
+{
+  "name": "Dicoding Stories App",
+  "short_name": "Stories",
+  "start_url": "/dicoding-stories-app/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1E88E5",
+  "description": "Aplikasi bercerita interaktif berbasis lokasi dan kamera.",
+  "icons": [
+    {
+      "src": "/dicoding-stories-app/images/logo2.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "/dicoding-stories-app/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/dicoding-stories-app/images/screenshot.png",
+      "sizes": "1420x1472",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/dicoding-stories-app/images/screenshot2.png",
+      "sizes": "2864x1488",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["social", "photo", "productivity"]
+}
