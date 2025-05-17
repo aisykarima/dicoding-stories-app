@@ -8,25 +8,25 @@
   "description": "Aplikasi bercerita interaktif berbasis lokasi dan kamera.",
   "icons": [
     {
-      "src": "/dicoding-stories-app/images/logo2.png",
+      "src": "/docs/images/logo2.png",
       "sizes": "40x40",
       "type": "image/png"
     },
     {
-      "src": "/dicoding-stories-app/images/logo.png",
+      "src": "/docs/images/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "/dicoding-stories-app/images/screenshot.png",
+      "src": "/docs/images/screenshot.png",
       "sizes": "1420x1472",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
-      "src": "/dicoding-stories-app/images/screenshot2.png",
+      "src": "/docs/images/screenshot2.png",
       "sizes": "2864x1488",
       "type": "image/png",
       "form_factor": "wide"
